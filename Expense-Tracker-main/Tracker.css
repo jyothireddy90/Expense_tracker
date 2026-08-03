@@ -1,0 +1,111 @@
+body{
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 700px;
+    color: white;
+}
+
+
+.header{
+    background-color: blueviolet;
+    padding: 10px 20px;
+    font-weight: 300px;
+    font-size: xx-large;
+    
+ 
+}
+.form{
+    display: flex;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px blueviolet;
+    
+    justify-content: space-around;
+    padding: 15px 20px;
+    margin:29px;
+}
+
+.form-floating{
+box-shadow: 0px 0px 4px blueviolet;
+
+
+
+}
+#add-btn{
+    background-color: blueviolet;
+    width:50px;
+    height: 60px;
+    border-radius: 50%;
+    font-size:xx-large;
+    font-weight: 600px;
+}
+.input{
+    width:30%;
+}
+
+.cards{
+    display: flex;
+    
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+
+.card{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 8px;
+}
+.icons{
+    color:#f5f1f1;
+}
+
+.Transaction-table{
+
+    width:95%;
+    margin: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    color: black;
+    background-color: rgb(186, 120, 248);
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.5);
+}
+
+#header-row{
+    background-color: blueviolet;
+    padding: 9px 10px;
+}
+
+.del-btn{
+    background-color:  rgb(186, 120, 248);
+    border-radius: 20px;
+    width:50px;
+    height: 50px;
+    border:none
+    
+}
+
+@media only screen and (max-width: 760px){
+    .header{
+        padding-left: 25px;
+        font-size: large;
+    }
+
+    .form{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .input{
+        width:75%;
+    }
+
+    #add-btn{
+        background-color: blueviolet;
+       width: 75%;
+        border-radius: 8px;
+        font-size:xx-large;
+        font-weight: 600px;
+    
+    }
+}
